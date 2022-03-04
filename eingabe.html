@@ -1,0 +1,31 @@
+<html>
+<head>
+	<title>Kinocenter</title>
+	<link rel='stylesheet' href='.stylesheet.css'>
+</head>
+
+<body>
+
+<b>Tickets</b><br><br>
+<form action="./.phpfiles/auswerten.php" method="get">
+Anzahl Erwachsene:
+<input type="text" name="erwachsene" maxlength="2" size="1"><br>
+Anzahl Kinder
+<input type="text" name="kinder" maxlength="2" size="1"><br>
+<input type="submit" value="Berechnen"><br><br><br>
+</form>
+
+<form action="./.phpfiles/brutto.php" method="get">
+Nettopreis:
+<input type="text" name="netto" size="2"><br>
+<input type="submit" value="Berechnen"><br><br><br>
+</form>
+
+<form action="./.phpfiles/arbeitslohn.php" method="get">
+Bitte geben sie Ihre Wochenarbeitszeit ein:
+<input type="text" name="wochenarbeitszeit" size="1"><br>
+<input type="submit" value="Berechnen Ihres Bruttolohns"><br><br><br>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<title>
+			Eingabe Broca-Formel
+		</title>
+		<link rel='stylesheet' href='.stylesheet.css'>
+	</head>
+	<body>
+	
+		<b>Broca-Formel-Eingabeformular</b><br><br>
+	
+		<form action="./.phpfiles/auswerten_apotheke.php" method="get">
+			Koerpergroesse:
+			<input type="text" name="size">
+			cm<br>
+
+			<input type="radio" name="gender" value="weiblich" checked>
+			weiblich<br>
+			<input type="radio" name="gender" value="maennlich">
+			maennlich<br>
+
+			<input type="submit" value ="berechnen"><br>
+		</form>
+
+	</body>
+</html>
