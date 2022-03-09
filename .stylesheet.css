@@ -4,11 +4,21 @@
 		background-color: white;
 		color: black;
 	}
+	input, select{
+		background-color: white;
+		border-color: white;
+		color: black;
+	}
 }
 /*Dark Mode*/
 @media (prefers-color-scheme: dark){
 	body{
-		background-color: #353535;
+		background-color: #242424;
+		color: white;
+	}
+	input, select{
+		background-color: #393939;
+		border-color: #393939;
 		color: white;
 	}
 }
