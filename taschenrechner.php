@@ -3,20 +3,21 @@
 		<title>
 			Taschenrechner
 		</title>
-		<link rel='stylesheet' href='.stylesheet.css'>
+		<link rel='stylesheet' href='normalize.css'>
+		<link rel='stylesheet' href='ctk.css'>
 	</head>
 	<body>
 
 		<form action="<?php echo $_SERVER['PHP_SELF'] ?>" method="get">
 
-			<input type="float" name="operandLeft" size="2">
+			<input type="text" name="operandLeft" size="2">
 			<select name="calcType">
 				<option value="Multiply">Multiply</option>
 				<option value="Divide">Divide</option>
 				<option value="Add">Add</option>
 				<option value="Substract">Substract</option>
 			</select>
-			<input type="float" name="operandRight" size="2">
+			<input type="text" name="operandRight" size="2">
 			<br>
 
 			<input type="submit" name="send" value="Berechnen"><br><br>
