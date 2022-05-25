@@ -9,12 +9,11 @@
 			$temps = array(8, 12, 14, 10, 15, 20, 22);
 			$max;
 			$min;
-			$avg;
+			$avg = 0;
 			foreach($temps as $i => $temp){
 				if($i == 0){
 				        $max = $temp;
 				        $min = $temp;
-//				        $avg = $temp;
 				} elseif($temp > $max){
 					$max = $temp;
 				} elseif($temp < $min){
