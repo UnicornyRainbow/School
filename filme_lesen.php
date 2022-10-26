@@ -10,7 +10,7 @@
                         $db_server='localhost';
                         $db_user='unicorn';
                         $db_password='fabian';
-                        $db_name='school';
+                        $db_name='school_kino';
 
                         $connection = mysqli_connect($db_server, $db_user, $db_password, $db_name);
                         if(!$connection)
