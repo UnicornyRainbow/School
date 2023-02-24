@@ -7,7 +7,7 @@
 	</head>
 	<body>
 
-		<form action="<?php echo $_SERVER['PHP_SELF'] ?>" method="get">
+		<form action="<?php echo $_SERVER['PHP_SELF'] ?>" method="get" target="_blank">
 			
 			Koerpergroesse:
 			<input type="float" name="size" size="2">
